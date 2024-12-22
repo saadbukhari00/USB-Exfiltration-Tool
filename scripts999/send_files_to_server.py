@@ -4,11 +4,11 @@ import os
 import shutil
 
 # Base64-encoded credentials and directory path
-VPS_IP_ENC = b'NjQuMjI3LjEzNC41Mw=='  # Replace with your base64-encoded VPS IP
+VPS_IP_ENC = b'IP'  # Replace with your base64-encoded VPS IP
 VPS_PORT_ENC = b'MjI='               # Base64-encoded port (22)
-USERNAME_ENC = b'cm9vdA=='  # Base64-encoded username
-PASSWORD_ENC = b'UmF3YWwuMjAwNUBSYWZheQ=='  # Base64-encoded password
-DEST_DIR_ENC = b'L2ZpbGVz'  # Base64-encoded destination directory on VPS
+USERNAME_ENC = b'USERNAME'  # Base64-encoded username
+PASSWORD_ENC = b'PASS'  # Base64-encoded password
+DEST_DIR_ENC = b'DESTINATION_DIRECTORY'  # Base64-encoded destination directory on VPS
 
 # Decode the encoded values
 def decode_config(encoded_value):
